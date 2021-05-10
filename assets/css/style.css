@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+/* Styling for heading and logo */
+
+h1, h2{
+    font-family: fantasy, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #707B88;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 30px;
+}
+
+/* Navigation menu */
+
+#nav-menu{
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#nav-menu, #logo{
+    line-height: 75px;
+}
+
+#nav-menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* anime outer styling and anime, d&d head image */
+
+#anime-head-section-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#dnd-head-section-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#anime-head-image{
+    height: 600px;
+    width: 100%;
+    background: url('/assets/images/anime/weathering-with-you-poster.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#dnd-head-image{
+    height: 600px;
+    width: 100%;
+    background: url('/assets/images/d&d/d&d-tiamat-poster.jpg') no-repeat center center;
+}
+
+/* Cover text */
+
+#cover-text, #cover-text h2{
+    color: #fff;
+}
+
+#cover-text{
+    font-size: 130%;
+    font-family: fantasy, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 20px;
+
+    background-color: rgba(185, 62, 60,  0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
