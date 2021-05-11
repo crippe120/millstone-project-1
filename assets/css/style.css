@@ -18,7 +18,7 @@ h1, h2{
     font-family: fantasy, sans-serif;
     text-transform: uppercase;
     letter-spacing: 12px;
-    color: #252525;
+    color: #c71456;
 }
 
 #logo {
@@ -140,4 +140,92 @@ h1, h2{
     position: absolute;
 }
 
+/* Anime text */
 
+#anime-group{
+    height: 600px;
+}
+
+#anime-left-about{
+    padding-top: 33px;
+    width: 40%;
+    float: left;
+}
+
+#anime-right-about{
+    padding-top: 33px;
+    width: 40%;
+    float: right;
+}
+
+hr{
+    border-top: 1px solid #4ab158;
+    width: 100%;
+    margin: 6px 0;
+}
+
+.anime-left-about-heading{
+    width: 60%;
+    float: right;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.anime-left-about-heading h2{
+    text-align: left;
+}
+
+.anime-left-about-heading p{
+    text-align: left;
+    color: #80e088;
+    text-transform: uppercase;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+
+
+.anime-right-about-heading{
+    width: 60%;
+    float: left;
+    line-height: 15px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.anime-right-about-heading h2{
+    text-align: right;
+}
+
+.anime-right-about-heading p{
+    text-align: right;
+    color: #c1de22;
+    text-transform: uppercase;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+
+#welcome{
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+
+#anime-center-container{
+    width: 100%;
+    height: 600px;
+}
+
+#anime-center-cover-bg{
+    background: url('/assets/images/anime/attack-on-titan-background.png') no-repeat center center;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
