@@ -80,12 +80,38 @@ h1, h2{
     width: 100%;
     background: url('/assets/images/anime/weathering-with-you-poster.jpg') no-repeat center center;
     background-size: cover;
+
+    /* Animation code for zoom effect */
+
+    animation-name: head-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 #dnd-head-image{
     height: 600px;
     width: 100%;
-    background: url('/assets/images/d&d/d&d-tiamat-poster.jpg') no-repeat center center;
+    background: url('/assets/images/d&d/d&d-tiamat-poster-2.png') no-repeat center center;
+    background-size: cover;
+
+    /* Animation code for zoom effect */
+
+    animation-name: head-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+/* Code that creates animated zoom for both of the head images */
+
+@keyframes head-image-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 /* Cover text */
@@ -113,3 +139,5 @@ h1, h2{
 
     position: absolute;
 }
+
+
